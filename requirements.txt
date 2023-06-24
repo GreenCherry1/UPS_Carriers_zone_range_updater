@@ -1,0 +1,4 @@
+requests
+xlwt
+openpyxl
+pywin32
