@@ -5,7 +5,7 @@ import win32com.client as win32
 
 def CreateEmptyXlsFile(path):
     '''Creates empty xls file.
-    path - path'''
+    path - path of the file'''
     wb=xlwt.Workbook()
     wb.add_sheet('1')
     wb.save(path)
